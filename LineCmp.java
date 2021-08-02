@@ -30,5 +30,14 @@ public class LineCmp {
 	          
 	     	  double lengthOfLine2 = Math.sqrt(Math.pow((p4-p3),2)) + Math.pow((q4-q3), 2) ;
 			  System.out.println("Length of the line 2:" +lengthOfLine2);
+			  
+			  Integer a = new Integer((int)lengthOfLine1);
+			  Integer b = new Integer((int)lengthOfLine2);
+			  		if(a.equals (b))
+			  			System.out.println("Both Lines are eaqual");
+			  		else 
+			  			System.out.println("Both lines are not equal");
+			  
+			
 		}
 	}
